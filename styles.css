@@ -1,0 +1,138 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+li {
+   display: inline;
+
+   
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.home {
+    background-color: black;
+}
+.content {
+    background-color: black;
+}
+.intro {
+    color: white;
+    text-align: center;
+}
+
+.asterisk {
+    color: white;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff,
+           0 0 20px #fff, 0 0 30px white, 
+           0 0 40px white, 0 0 50px white, 
+           0 0 60px white, 0 0 70px white;
+        }
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Joseif-Sans', sans-serif;
+        box-sizing: border-box;
+    }
+
+    .about {
+        width: 100%;
+        padding: 78px 0px;
+        background-color: #191919;
+    }
+
+    .about img {
+        height: auto;
+        width: 420px;
+
+    }
+
+
+    .about-text {
+        width: 550px;
+    }
+
+    .about-imageTwo {
+        height: auto;
+        width: 420px;
+    }
+    .main {
+       width: 1130px;
+       max-width: 95%;
+       margin: 0 auto;
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+    }
+
+    .about-text h1 {
+        color: white;
+        font-size: 80px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+
+    }
+
+    .about-text h5 {
+        color: white;
+        font-size: 25px;
+        text-transform: capitalize;
+        margin-bottom: 25px;
+        letter-spacing: 2px;
+    }
+
+    #Names {
+        color: white;
+    }
+
+    .about-text p {
+color: #fcfc;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+    }
+
+    button {
+        background: #f9004d;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 13px 30px;
+        border-radius: 30px;
+    }
+     #textField {
+        color: red;
+     }
+
+    
+
+     #abouttt{
+		color: #fff;
+		padding: 10px;
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackground 0.4s infinite;
+	}
+	@keyframes blinkingBackground{
+		0%		{ background-color: black;}
+		25%		{ background-color: white;}
+		50%		{ background-color: #ef0a1a;}
+		75%		{ background-color: white;}
+		100%	        { background-color: black;}
+	}

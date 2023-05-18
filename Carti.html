@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <title>Carti</title>
+</head>
+<header>
+    <ul>
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="Carti.html">Playboi Carti</a></li>
+        
+    </ul>
+</header>
+<body class="about" id="aboutt">
+    <section class="bout">
+        <div class="main" id="main">
+        <img src="images/carti.webp" id="image"> 
+        <div>
+            <!--input type="text" placeholder= "Enter play for a surprise"id="input-task" -->
+        </div>
+        <div class="about-text">
+            <h1 id="rapper">Playboi Carti</h1>
+            <h5 id="artist">Rapper</h5>
+            <audio src="./music/playboi carti - stop breathing instrumental.mp3" autoplay="autoplay" id="song"></audio>
+        <p id="textField" style="display: none;">
+            With his third studio album Whole lotta Red, Carti may
+            be arguably the most influential rapper of this generation. He has mastered the art 
+            of mixing heavy hitting 808's with an exhilarating Rock influence.
+        </p>
+        <p id="Thank-You"></p>
+            <button onclick="play(),displayText()">Hit me first!</button>
+            <button onclick="resetPage(), stop(), Thank()">Hit me Second</button>
+            <button id="buttonThree" onclick="kenSong(), showArtists(), Music()">Hit me Last</button>
+            <!--button onclick="play()" id="Surprise">Hit me</button -->
+            <h4 id="egos"></h4>
+<div id="Names"></div>
+        </div>
+        </div>
+    </section>
+    <script src="scripts.js" charset="UTF-8"></script>
+
+</body>
+</html>
